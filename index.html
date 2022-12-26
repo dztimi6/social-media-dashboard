@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body class="dark">
+    <main>
+      <div class="header">
+        <div>
+          <h1 class="dark">Social Media Dashboard</h1>
+          <p class="dark">Total Followers: 23,004</p>
+        </div>
+        <!-- Switch -->
+        <div class="toggle-btn">
+          <label for="dark-mode-button" class="switch dark text"
+            >Dark Mode</label
+          >
+          <label class="toggle" id="toggle"
+            ><input type="checkbox" id="switch" class="toggle-input" />
+            <div class="toggle_fill"></div
+          ></label>
+        </div>
+      </div>
+      <!-- Total followers -->
+      <div class="total-followers">
+        <!-- Facebook -->
+        <div class="card facebook dark">
+          <div class="user">
+            <img src="/images/icon-facebook.svg" alt="facebook" />
+            <p class="dark">@nathanf</p>
+          </div>
+          <div>
+            <h2 class="dark">1987</h2>
+            <p class="followers dark">Followers</p>
+          </div>
+          <div class="green">
+            <img src="/images/icon-up.svg" alt="icon-up" />
+            <p>12 Today</p>
+          </div>
+        </div>
+
+        <!-- Twitter -->
+        <div class="card twitter dark">
+          <div class="user">
+            <img src="/images/icon-twitter.svg" alt="twitter" />
+            <p class="dark">@nathanf</p>
+          </div>
+          <div>
+            <h2 class="dark">1044</h2>
+            <p class="followers dark">Followers</p>
+          </div>
+          <div class="green">
+            <img src="/images/icon-up.svg" alt="icon-up" />
+            <p>99 Today</p>
+          </div>
+        </div>
+
+        <!-- Instagram -->
+        <div class="card instagram dark">
+          <div class="user">
+            <img src="/images/icon-instagram.svg" alt="instagram" />
+            <p class="dark">@realnathanf</p>
+          </div>
+          <div>
+            <h2 class="dark">11k</h2>
+            <p class="followers dark">Followers</p>
+          </div>
+          <div class="green">
+            <img src="/images/icon-up.svg" alt="icon-up" />
+            <p>1099 Today</p>
+          </div>
+        </div>
+
+        <!-- Youtube -->
+        <div class="card youtube dark">
+          <div class="user">
+            <img src="/images/icon-youtube.svg" alt="youtube" />
+            <p class="dark">Nathan F.</p>
+          </div>
+          <div>
+            <h2 class="dark">8239</h2>
+            <p class="followers dark">Subscribers</p>
+          </div>
+          <div class="red">
+            <img src="/images/icon-down.svg" alt="icon-down" />
+            <p>144 Today</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overview -->
+      <div class="overview">
+        <!-- Heading -->
+        <h2>Overview - Today</h2>
+
+        <div class="overview-container">
+          <!-- Facebook page views -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Page Views</p>
+              <img src="/images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="counter">
+              <h3>87</h3>
+              <div class="overview-percent green">
+                <img src="/images/icon-up.svg" alt="icon-up" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Facebook likes -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Likes</p>
+              <img src="/images/icon-facebook.svg" alt="facebook" />
+            </div>
+            <div class="counter">
+              <h3>52</h3>
+              <div class="overview-percent red">
+                <img src="/images/icon-down.svg" alt="icon-down" />
+                <p>2%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram likes -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Likes</p>
+              <img src="/images/icon-instagram.svg" alt="instagram" />
+            </div>
+            <div class="counter">
+              <h3>5462</h3>
+              <div class="overview-percent green">
+                <img src="/images/icon-up.svg" alt="icon-up" />
+                <p>2257%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instagram profile views -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Profile Views</p>
+              <img src="/images/icon-instagram.svg" alt="instagram" />
+            </div>
+            <div class="counter">
+              <h3>52k</h3>
+              <div class="overview-percent green">
+                <img src="/images/icon-up.svg" alt="instagram" />
+                <p>1375%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Twitter retweets -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Retweets</p>
+              <img src="/images/icon-twitter.svg" alt="twitter" />
+            </div>
+            <div class="counter">
+              <h3>117</h3>
+              <div class="overview-percent green">
+                <img src="/images/icon-up.svg" alt="icon-up" />
+                <p>303%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Twitter Likes -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Likes</p>
+              <img src="/images/icon-twitter.svg" alt="twitter" />
+            </div>
+            <div class="counter">
+              <h3>507</h3>
+              <div class="overview-percent green">
+                <img src="/images/icon-up.svg" alt="icon-up" />
+                <p>553%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Youtube likes -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Likes</p>
+              <img src="/images/icon-youtube.svg" alt="youtube" />
+            </div>
+            <div class="counter">
+              <h3>107</h3>
+              <div class="overview-percent red">
+                <img src="/images/icon-down.svg" alt="icon-down" />
+                <p>19%</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Youtube total views -->
+          <div class="overview-card dark">
+            <div class="overview-user">
+              <p class="dark">Total Views</p>
+              <img src="/images/icon-youtube.svg" alt="youtube" />
+            </div>
+            <div class="counter">
+              <h3>1407</h3>
+              <div class="overview-percent red">
+                <img src="/images/icon-down.svg" alt="icon-down" />
+                <p>12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
