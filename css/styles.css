@@ -223,6 +223,7 @@ main {
   width: 100%;
   left: 0;
   top: -1px;
+  border-radius: 0.219rem 0.219rem 0 0;
 }
 
 .youtube {
