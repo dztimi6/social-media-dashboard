@@ -24,7 +24,7 @@ document.onclick = function (event) {
   if (event.target.checked === true) {
     lightMode();
     labelText.innerText = "Light Mode";
-    toggleBtn.style.background = "hsl(230, 22%, 74%)";
+    toggleBtn.style.backgroundColor = "hsl(230, 22%, 74%)";
   } else {
     darkMode();
     labelText.innerText = "Dark Mode";

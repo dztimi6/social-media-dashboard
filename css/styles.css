@@ -292,10 +292,10 @@ main {
   padding: 1.25rem 1.25rem;
   background-color: var(--card-bg);
   border-radius: 0.25rem;
-  transition: ease-in-out 0.8s;
+  /* transition: ease-in-out 0.8s;
   transform: scale(1);
   -webkit-animation: slideIn 1s ease;
-  animation: slideIn 1.5s ease;
+  animation: slideIn 1.5s ease; */
 }
 
 .overview-user,
